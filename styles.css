@@ -34,7 +34,7 @@ h2, p {
     color: white;
     font-size: 16px;
     border: none;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .dropdown-content {
@@ -43,7 +43,7 @@ h2, p {
     z-index: 1;
     color: rgb(255, 255, 255);
     background-color: transparent;
-    min-width: 100px;
+    min-width: 100px;  
 }
 
 .dropdown-content a {
@@ -56,11 +56,17 @@ h2, p {
 .dropdown:hover .dropdown-content {display:block;}
 .dropdown:hover .dropbtn {background-color:transparent}
 
-.Social-links {
-   display: block;
-   float: right;
+main {
+    float: left;
+    max-width: 700px
 }
 
 footer {
-    padding-top: 300px
+    padding-top: 500px
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
 }
