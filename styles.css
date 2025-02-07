@@ -56,3 +56,11 @@ h2, p {
 .dropdown:hover .dropdown-content {display:block;}
 .dropdown:hover .dropbtn {background-color:transparent}
 
+.Social-links {
+   display: block;
+   float: right;
+}
+
+footer {
+    padding-top: 300px
+}
