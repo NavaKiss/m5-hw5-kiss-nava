@@ -10,11 +10,49 @@ img {
     padding: 20px;
     }
 
-header > nav {
+header > div {
     float: right;
+    color:rgb(255, 255, 255);
 }
 
-h1 {
+h1, footer {
     text-align: center;
     color:rgb(255, 255, 255);
 }
+
+h2, p {
+    color:rgb(255, 255, 255);
+}
+
+.dropdown {
+    color: white;
+    font-size: 16px;
+    float: right;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: transparent
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:transparent; color:white;}
+.dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropbtn {background-color:transparent}
+
