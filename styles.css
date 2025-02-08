@@ -58,7 +58,7 @@ h2, p {
 
 main {
     float: left;
-    max-width: 700px
+    max-width: 700px;
 }
 
 footer {
@@ -70,3 +70,4 @@ main::after {
     clear: both;
     display: block;
 }
+
