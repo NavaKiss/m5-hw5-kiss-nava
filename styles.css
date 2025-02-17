@@ -11,10 +11,10 @@ img {
     padding: 20px;
     width: 200px;
     height: 200px
-    }
+}
 
-header > div {
-    float: right;
+header {
+    text-align: center;
 }
 
 h1, footer {
@@ -25,7 +25,7 @@ h1, footer {
     color: white;
     font-size: 16px;
     float: right;
-}
+    }
 
 .dropbtn {
     color:white;
@@ -71,12 +71,19 @@ main::after {
 aside {
     float: right;
     width: 20%
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 section {
     max-width: 700px;
     float: left;
-    width: 70%;
+    width: 80%;
+}
+
+h1 {
+    width: 200px;
+    display: inline-block;
 }
 
 
